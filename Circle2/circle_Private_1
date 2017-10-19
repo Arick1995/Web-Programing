@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+/// <summary>
+/// Circle 的摘要描述
+/// </summary>
+public class Circle
+{
+    private double radius;
+    public Circle()
+    {
+        //
+        // TODO: 在這裡新增建構函式邏輯
+        //
+    }
+
+    public Circle(double r)
+    {
+        radius = r;
+    }
+
+    public double Radius
+    {
+        get
+        {
+            return radius;
+        }
+        set
+        {
+            if (value < 0)
+            {
+                radius = 0;
+            }
+            else
+            {
+                radius = value;
+            }
+        }
+    } 
+
+    public double Area()
+    {
+        return Math.PI * radius * radius; 
+    }
+}
