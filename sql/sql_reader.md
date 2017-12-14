@@ -41,6 +41,6 @@ public partial class _Default : System.Web.UI.Page
             TextBox1.Text = "";
             TextBox2.Text = "";
         }
-        
+        sqlcon.Close();
     }
 }
