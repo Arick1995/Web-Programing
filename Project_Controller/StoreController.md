@@ -14,9 +14,10 @@ namespace WebApplication1.Controllers
         {
             return "Hello from Store.Index";
         }
-        public string Browse()
+        public string Browse(string g)
         {
-            return "Hello from Store.Browse";
+            string msg = "g = " + g;
+            return msg;
         }
         public string Details()
         {
