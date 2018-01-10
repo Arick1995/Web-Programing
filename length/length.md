@@ -1,3 +1,4 @@
+``` C#
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,3 +31,4 @@ public partial class Default2 : System.Web.UI.Page
         Label1.Text = r;
     }
 }
+```
